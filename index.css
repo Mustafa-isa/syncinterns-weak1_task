@@ -349,3 +349,249 @@ p.btn{
     text-transform: capitalize;
 
 }
+.features{
+  background-color: #444;
+  color: #fff;
+  padding: 20px;
+
+}
+.features >h2{
+  margin: 50px;
+  text-align: center;
+  font-size: 44px;
+  text-transform: capitalize;
+
+}
+.features .container{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px , 1fr));
+  gap: 14px;
+
+}
+.features .container .box{
+  padding: 10px;
+  text-align: center;
+  border: 8px solid #fff;
+  border-radius: 10px;
+
+}
+.features .container .box i{
+
+width: 70px;
+height: 70px;
+display: block;
+margin: auto;
+border-radius: 50%;
+background-color: #485e95;
+text-align: center;
+padding-top: 20px;
+font-size: 29px;
+
+}
+.features .container .box h2{
+
+  text-transform: capitalize;
+
+}
+.features .container .box p{
+font-size: 13px;
+margin-top: 10px;
+  
+}
+.product{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #444;
+  color: #fff;
+
+}
+.product .container{
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+
+gap: 20px;
+}
+ .product .container .box{
+  display: flex;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  color: #000;
+
+
+ }
+ .product .container .box img{
+  flex: 1;
+  width: 40%;
+  height: 200px;
+
+ }
+ .product .container .box img{
+  padding-left: 30px;
+  display: block;
+
+  border-right: 2px solid #485e95 ;
+ }
+ .product .container .box .content{
+  width: 100%;
+  margin-left: 17px;
+ }
+
+ .product .container .box .content p{
+padding: 10px;
+color: #485e95;
+ }
+ .product .container .box .content h3{
+text-transform: capitalize;
+font-family: cursive;
+padding: 10px;
+
+ }
+ .product .container .box .content .btn{
+color: #fff;
+width: 80%;
+
+ }
+
+.conatct{
+  width: 100%;
+  height: 100vh;
+  background-color: #444;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #fff;
+
+
+}
+.conatct .conatiner{
+  width: 89%;
+display: flex;
+gap: 20px;
+
+
+}
+@media(max-width:767px){
+  .conatct .conatiner{
+    flex-direction: column-reverse;
+  }
+}
+.conatct .left{
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  background-color: #333; border-radius: 10px;
+
+
+}
+.conatct  .left input{
+  display: block;
+  width: 100%; margin-bottom: 50px;
+padding: 10px;
+border: 0;
+outline: none;
+background-color: transparent;
+border-bottom: 2px solid #fff;
+
+text-transform: capitalize;
+font-size: 1.4em;
+color: #fff;
+
+} 
+.conatct  .left textarea{
+  outline: none;
+  border: none;
+  background-color: transparent;
+  margin-top: -29px;
+  width: 100%;
+  height: 200px;
+  color: #fff;
+  padding: 20px;
+  font-size: 2em;
+  resize: none;
+}
+.conatct  .left textarea::placeholder{
+  color: #fff;
+
+
+}
+
+.conatct  .left p{
+  width: 100%;
+  margin: auto;
+  cursor: pointer;
+
+}
+.conatct .right{
+  padding: 10px;
+  text-align: left;
+  flex: 1;
+  margin-top: 50px;
+
+} 
+.conatct .right h2{
+  text-transform: capitalize;
+  margin-top: -10px;
+  padding: 10px;
+
+}
+.conatct .right p{
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+.conatct .right .item{
+padding: 3px;
+} 
+.conatct .right .item i{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+background-color: #537cbb;border-radius: 50%;
+text-align: center;
+padding-top: 5px;
+margin-right: 4px;
+}
+.footer{
+  background-color: #333;
+  color: #fff;
+
+}
+.footer .container{
+  display:flex;
+  align-items: center;
+  padding: 30px;
+  justify-content: center;
+}
+.footer .container h2{
+  font-size: 50px;
+  padding: 10px;
+  font-family: cursive;
+  text-transform: capitalize;
+} 
+.footer .container i{
+  font-size: 34px;
+  display: inline-block;
+  padding: 10px;
+  color: #537cbb;
+}
+.end{
+  background-color: #222;
+  height: 80px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+
+}
+.end span{
+  font-family: cursive;
+  color: #537cbb;
+}

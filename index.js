@@ -7,8 +7,5 @@ function showNav(e){
 
 this.classList.toggle('fa-xmark')
 nav.classList.toggle("show")
-
-
-
 }
 bars.addEventListener('click' ,showNav)
